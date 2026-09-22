@@ -103,7 +103,7 @@ const CONTACTO = {
         return;
       }
       const d = new FormData(form);
-      const asunto = "Solicitud de evaluación: " + d.get("interes");
+      const asunto = "Solicitud de consultoría: " + d.get("interes");
       const cuerpo = [
         "Nombre: " + d.get("nombre"),
         "Empresa: " + (d.get("empresa") || "-"),
