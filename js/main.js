@@ -69,7 +69,7 @@ const CONTACTO = {
   }
 
   // ---------- Aparición al hacer scroll ----------
-  const objetivos = document.querySelectorAll(".paso, .razon, .franja__cita, .franja__respuesta, .seccion__cabeza, .serv-card, .incluye-card, .cita-grande, .banda__fila, .formulario, .datos");
+  const objetivos = document.querySelectorAll(".paso, .razon, .franja__cita, .franja__respuesta, .seccion__cabeza, .serv-card, .incluye-card, .cita-grande, .direccion__perfil, .direccion__detalle, .banda__fila, .formulario, .datos");
   objetivos.forEach((el) => el.classList.add("aparece"));
   if ("IntersectionObserver" in window) {
     const obs = new IntersectionObserver(
