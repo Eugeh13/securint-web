@@ -218,7 +218,6 @@ def cabecera(actual):
       </div>
       <a href="../index.html#proceso">Cómo trabajamos</a>
       <a href="../index.html#porque">Por qué Securint</a>
-      <a href="../index.html#direccion">Dirección</a>
       <a href="../index.html#contacto">Contacto</a>
       <a class="boton boton--primario boton--chico" href="../index.html#contacto">Contactar a un consultor</a>
     </nav>
@@ -235,7 +234,6 @@ PIE = '''<footer class="pie">
     <nav class="pie__nav" aria-label="Pie de página">
       <a href="../index.html#servicios">Servicios</a>
       <a href="../index.html#proceso">Cómo trabajamos</a>
-      <a href="../index.html#direccion">Dirección</a>
       <a href="../index.html#contacto">Contacto</a>
     </nav>
     <span class="pie__copy">© <span id="anio"></span> Securint. Todos los derechos reservados.</span>
